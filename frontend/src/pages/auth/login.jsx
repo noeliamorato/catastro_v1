@@ -1,15 +1,24 @@
 import React from 'react'
-import { ContenedorGlobal, InicioSesion, Logo } from './styledLogin'
+import { ContainerGlobal, DateContainer, Img, InicioSesion, InputContainer, LogoContainer, Titulo } from './styledLogin'
 
 export const Login = () => {
   return (
-    <ContenedorGlobal>
-        <Logo>
-            hola
-        </Logo>
+    <ContainerGlobal>
+
+        <LogoContainer>
+          <Img>logo image</Img>
+        </LogoContainer>
+
         <InicioSesion>
-            Datos
+          <Titulo>Bienvenidos</Titulo>
+          <InputContainer>
+            <DateContainer>
+              Datos
+            </DateContainer>
+
+          </InputContainer>
         </InicioSesion>
-    </ContenedorGlobal>
+
+    </ContainerGlobal>
   )
 }
